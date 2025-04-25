@@ -9,4 +9,5 @@ app.get('/', (_req, res) => {
 
 app.listen(port, () => {
     console.log(`Server listening on http://0.0.0.0:${port}`);
+    console.log(`Hello`);
 });
