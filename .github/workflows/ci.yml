@@ -76,4 +76,4 @@ jobs:
           echo "🔴 Service did not start in time" && exit 1
 
       - name: Teardown
-        run: docker stop smoke-test
+        run: docker stop smoke-test
