@@ -10,15 +10,16 @@
     "@arethetypeswrong/cli": "^0.17.4",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.22.0",
-    "lefthook": "^1.11.4",
     "@tstv/eslint-config": "^3.2.4",
     "@tstv/tsconfig-common": "^3.7.0",
+    "@types/express": "^5.0.1",
     "@types/node": "^22.13.13",
     "@vitest/coverage-v8": "^3.0.9",
     "cross-env": "^7.0.3",
     "dependency-cruiser": "^16.10.0",
     "eslint": "^9.23.0",
     "generate-changelog": "^1.8.0",
+    "lefthook": "^1.11.4",
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
@@ -67,7 +68,11 @@
     "test:types": "tsc --project tsconfig.check.json",
     "test:unit": "vitest run --passWithNoTests",
     "test:unit:coverage": "npm run test:unit -- --coverage"
+     
   },
   "type": "module",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
